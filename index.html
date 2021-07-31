@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>video With Moving Button</title>
+</head>
+<body>
+    <div class="video-cont" onmousemove="moseMove(event)">
+        <div class="cursor-mobile">
+            <div class="iconPlay">
+                <svg id="mute-speaker" xmlns="http://www.w3.org/2000/svg" width="19.09" height="30" viewBox="0 0 19.09 30">
+                    <path id="Path_4284" data-name="Path 4284" d="M1.781,35.6H8.639l7.6,5.718A1.773,1.773,0,0,0,19.09,39.9V13.469a1.785,1.785,0,0,0-2.85-1.422l-7.6,5.718H1.781A1.785,1.785,0,0,0,0,19.543V33.854A1.779,1.779,0,0,0,1.781,35.6Z" transform="translate(0 -11.686)" fill="#fff"/>
+                </svg>
+            </div>
+            <div class="pauseIcon">
+                <svg id="mute-speaker" xmlns="http://www.w3.org/2000/svg" width="37" height="30" viewBox="0 0 37 30">
+                    <path id="Path_4284" data-name="Path 4284" d="M1.781,35.6H8.639l7.6,5.718A1.773,1.773,0,0,0,19.09,39.9V13.469a1.785,1.785,0,0,0-2.85-1.422l-7.6,5.718H1.781A1.785,1.785,0,0,0,0,19.543V33.854A1.779,1.779,0,0,0,1.781,35.6Z" transform="translate(0 -11.686)" fill="#fff"/>
+                    <path id="Path_4285" data-name="Path 4285" d="M90.462,39.179a2.1,2.1,0,0,0-2.939,0l-3.5,3.5-3.5-3.5a2.076,2.076,0,0,0-2.939,2.933l3.5,3.5-3.5,3.5a2.087,2.087,0,1,0,2.969,2.933l3.5-3.5,3.5,3.5A2.087,2.087,0,1,0,90.521,49.1l-3.563-3.5,3.5-3.5A2.09,2.09,0,0,0,90.462,39.179Z" transform="translate(-54.123 -30.611)" fill="#fff"/>
+                </svg>
+            </div>
+        </div>
+        <div class="cursor">
+            <div class="iconPlay">
+                <svg id="mute-speaker" xmlns="http://www.w3.org/2000/svg" width="19.09" height="30" viewBox="0 0 19.09 30">
+                    <path id="Path_4284" data-name="Path 4284" d="M1.781,35.6H8.639l7.6,5.718A1.773,1.773,0,0,0,19.09,39.9V13.469a1.785,1.785,0,0,0-2.85-1.422l-7.6,5.718H1.781A1.785,1.785,0,0,0,0,19.543V33.854A1.779,1.779,0,0,0,1.781,35.6Z" transform="translate(0 -11.686)" fill="#fff"/>
+                </svg>
+            </div>
+            <div class="pauseIcon">
+                <svg id="mute-speaker" xmlns="http://www.w3.org/2000/svg" width="37" height="30" viewBox="0 0 37 30">
+                    <path id="Path_4284" data-name="Path 4284" d="M1.781,35.6H8.639l7.6,5.718A1.773,1.773,0,0,0,19.09,39.9V13.469a1.785,1.785,0,0,0-2.85-1.422l-7.6,5.718H1.781A1.785,1.785,0,0,0,0,19.543V33.854A1.779,1.779,0,0,0,1.781,35.6Z" transform="translate(0 -11.686)" fill="#fff"/>
+                    <path id="Path_4285" data-name="Path 4285" d="M90.462,39.179a2.1,2.1,0,0,0-2.939,0l-3.5,3.5-3.5-3.5a2.076,2.076,0,0,0-2.939,2.933l3.5,3.5-3.5,3.5a2.087,2.087,0,1,0,2.969,2.933l3.5-3.5,3.5,3.5A2.087,2.087,0,1,0,90.521,49.1l-3.563-3.5,3.5-3.5A2.09,2.09,0,0,0,90.462,39.179Z" transform="translate(-54.123 -30.611)" fill="#fff"/>
+                </svg>
+            </div>
+        </div>
+        <video loop>
+            <source src="video/intronew.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
